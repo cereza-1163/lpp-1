@@ -1,0 +1,93 @@
+entero cantidadmujeres, cantidadhombres,personas, ciclo,opcion, cantidad1,cantidad2,cantidad3,cantidad4,cantidad5,cantidad6
+cadena [1] genero
+
+INICIO
+
+cantidadmujeres<-0
+cantidadhombres<-0
+
+cantidad1<-0
+
+escriba("cuantas personas va evaluar")
+lea personas
+
+
+
+para ciclo<-1 hasta personas haga
+
+escriba(" que le gusta hacer")
+
+llamar nueva_linea
+
+escriba ("1. cine")
+llamar nueva_linea
+
+escriba ("2. comer")
+llamar nueva_linea
+
+escriba ("3. realizar deportes")
+llamar nueva_linea
+
+escriba ("4. GYM")
+llamar nueva_linea
+
+escriba ("5. hablar")
+llamar nueva_linea
+
+escriba ("6. cena romantica")
+llamar nueva_linea
+llamar nueva_linea
+escriba("marca tu gusto favorito")
+lea opcion
+
+llamar nueva_linea 
+
+escriba ("cual es su genero")
+lea genero
+
+si (genero="f")entonces
+cantidadmujeres<-cantidadmujeres +1
+sino
+cantidadhombres<-cantidadhombres+1
+fin si
+
+si(opcion=1)entonces
+	cantidad1<-cantidad1+1
+fin si
+si(opcion=2)entonces
+	cantidad2<-cantidad2+1
+fin si 
+
+si(opcion=3)entonces
+	cantidad3<-cantidad3+1
+fin si 
+si(opcion=4)entonces
+	cantidad4<-cantidad4+1
+fin si 
+
+si(opcion=5)entonces
+	cantidad5<-cantidad5+1
+fin si
+si(opcion=6)entonces
+	cantidad6<-cantidad6+1
+fin si
+	
+	fin para
+
+escriba ("numero de personas mujeres son "),cantidadmujeres
+llamar nueva_linea
+escriba ("numero de personas hombres son "),cantidadhombres
+
+llamar nueva_linea
+escriba ("Cantidad CINE: "),cantidad1
+llamar nueva_linea
+escriba ("Cantidad COMER: "),cantidad2
+llamar nueva_linea
+escriba ("Cantidad REALIZAR DEPORTE: "),cantidad3
+llamar nueva_linea
+escriba ("Cantidad GYM: "),cantidad4
+llamar nueva_linea
+escriba ("Cantidad HABLAR: "),cantidad5
+llamar nueva_linea
+escriba ("Cantidad CENA ROMANTICA: "),cantidad6
+fin

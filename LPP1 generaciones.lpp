@@ -1,0 +1,80 @@
+entero opcion
+
+INICIO
+ESCRIBA("SELECCIONE UNA OPCION DEL MENU")
+llamar nueva_linea
+llamar nueva_linea
+ESCRIBA("1.Primera generación")
+
+llamar nueva_linea
+ESCRIBA("2.Segunda generación")
+
+llamar nueva_linea
+ESCRIBA("3.Tercera generación")
+
+llamar nueva_linea
+ESCRIBA("4.Cuarta generación")
+
+llamar nueva_linea
+ESCRIBA("5.Quinta generación")
+
+llamar nueva_linea
+ESCRIBA("6.Sexta generación")
+
+llamar nueva_linea
+ESCRIBA("7.Memorias")
+
+llamar nueva_linea
+ESCRIBA("8.Procesadores")
+
+llamar nueva_linea
+ESCRIBA("9.Tarjeta madre")
+
+llamar nueva_linea
+ESCRIBA("10.Unidades almacenamiento")
+
+escriba("digite una opcion del menu anterior")
+lea opcion
+
+si (opcion=1) entonces
+escriba ("la principal caracteristica de esta generacion es que las computadoras estaban hechas con valvulas de vacio")
+fin si
+
+si(opcion=2) entonces 
+escriba ("la principal caracteristica de esta generacion es que reemplazaron las valvulas por los transistore")
+fin si
+
+si(opcion=3) entonces
+escriba ("la principal caracteristica de esta generacion es que emepezaron a utilizar los circuitos integrados")
+fin si
+
+si(opcion=4) entonces
+escriba ("la rpincipal caracteristica de esta generacion es que aparecieron los microprocesadores y las memorias de nucleos magneticos ")
+fin si
+
+si(opcion=5) entonces
+escriba ("en esta generacion las computadoras tenian mayor velocidad y mayor miniaturacion")
+fin si
+
+si(opcion=6) entonces
+escriba("aqui se dio la inteligencia artificial")
+fin si
+
+si(opcion=7) entonces
+escriba ("las memorias se utilizan para almacenar datos e intrucciones")
+ fin si
+ 
+ si(opcion=8)entonces
+ escriba("los procesadores son el cerebro del coputador, son los que procesan la informacion")
+ fin si
+ 
+ si(opcion=9) entonces
+ escriba("es la plataforma sobre la que se construye la computadora y sirve como medio de conexion el microprocesador y los circuitos")
+ fin si
+ 
+ si(opcion=10) entonces
+ escriba("Los dispositivos de almacenamiento son unidades que forman parte interna o externa del hardware, nos sirven para guardar información en nuestro computador de forma temporal o permanente")
+ 
+fin si
+
+FIN
